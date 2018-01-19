@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/add.png</file>
+        <file>image/back_black.png</file>
+        <file>image/back_blue.png</file>
+        <file>image/close_black.png</file>
+        <file>image/close_red.png</file>
+        <file>image/contacts.png</file>
+        <file>image/contacts_blue.png</file>
+        <file>image/mail.png</file>
+        <file>image/message.png</file>
+        <file>image/message_blue.png</file>
+        <file>image/more.png</file>
+        <file>image/resume.png</file>
+        <file>image/tel.png</file>
+        <file>image/tel_blue.png</file>
+        <file>image/win_back.png</file>
+        <file>image/win_back_blue.png</file>
+        <file>image/win_max.png</file>
+        <file>image/win_max_blue.png</file>
+        <file>image/win_min.png</file>
+        <file>image/win_min_blue.png</file>
+    </qresource>
+</RCC>
