@@ -1,8 +1,8 @@
 #include <winver.h>
 
 VS_VERSION_INFO VERSIONINFO
-    FILEVERSION 1,0,0,1
-    PRODUCTVERSION 1,0,0,1
+    FILEVERSION 0,0,0,0
+    PRODUCTVERSION 0,0,0,0
     FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
     FILEFLAGS VS_FF_DEBUG
@@ -18,14 +18,14 @@ VS_VERSION_INFO VERSIONINFO
             BLOCK "080404b0"
             BEGIN
                 VALUE "CompanyName", "Deansquirrel"
-                VALUE "FileDescription", "QtDemo"
-                VALUE "FileVersion", "1.0.0.1"
-                VALUE "InternalName", "Demo"
+                VALUE "FileDescription", "Login"
+                VALUE "FileVersion", "0.0.0.0"
+                VALUE "InternalName", "Login"
                 VALUE "LegalCopyright", "Copyright (C) Deansquirrel"
                 VALUE "LegalTrademarks", ""
                 VALUE "OriginalFilename", "Demo.exe"
                 VALUE "ProductName", "Demo"
-                VALUE "ProductVersion", "1.0.0.1 Build20170220"
+                VALUE "ProductVersion", "0.0.0.0 Build00000000"
             END
         END
         BLOCK "VarFileInfo"
@@ -34,4 +34,4 @@ VS_VERSION_INFO VERSIONINFO
         END
     END
 
-IDI_ICON1  ICON   DISCARDABLE   "icon.ico"
+IDI_ICON1  ICON   DISCARDABLE   "..\icon.ico"

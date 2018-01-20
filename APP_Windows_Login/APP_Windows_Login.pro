@@ -1,13 +1,13 @@
-QT += qml quick core
+QT += qml quick
 
 CONFIG += c++11
 
 SOURCES += main.cpp
 
-RESOURCES += res/image.qrc \
-    res/qml_main.qrc \
-    res/qml_settings.qrc \
-    res/qml_login.qrc
+RESOURCES += \
+    res/qml.qrc
+
+include(../Common_res/Common_res.pri)
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -30,7 +30,3 @@ DEFINES += QT_DEPRECATED_WARNINGS
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
-
-DISTFILES += \
-    qtquickcontrols2.conf \
-    icon.ico
