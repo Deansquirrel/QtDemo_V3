@@ -7,6 +7,8 @@ SOURCES += main.cpp
 RESOURCES += \
     res/qml.qrc
 
+include(../Common_res/Common_res.pri)
+
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
 

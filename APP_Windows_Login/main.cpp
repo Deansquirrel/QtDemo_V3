@@ -1,8 +1,12 @@
 ﻿#include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QTextCodec>
+#include <QQmlContext>
 
 #include <LibGlobal.h>
+
+
+#include <QDebug>
 
 int main(int argc, char *argv[])
 {
@@ -17,7 +21,7 @@ int main(int argc, char *argv[])
     //界面UI字符串
     LibGlobal libGlobal;
     QJsonObject ui = libGlobal.getJsonUI();
-//    engine.rootContext()->setContextProperty("ui",&ui);
+    engine.rootContext()->setContextProperty("ui",ui);
     //--------------------------------------------------------------------------------
 
     engine.load(QUrl(QLatin1String("qrc:/qml/main.qml")));

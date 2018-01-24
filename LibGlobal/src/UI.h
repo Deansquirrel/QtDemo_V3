@@ -5,6 +5,8 @@
 #include <QColor>
 #include <QException>
 
+#include <QDebug>
+
 class UI
 {
 public:

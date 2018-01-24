@@ -2,13 +2,13 @@
 
 UI::UI()
 {
-//    QString UI::_backColor = "white";
-//    QString UI::_winColor = "#F2F2F2";
-//    //QString UI::_winColor = "#EBEBEB";
-//    QString UI::_fontColor = "#333333";
-//    QString UI::_fontLightColor = "#CCCCCC";
-//    QString UI::_fontTipsColor = "#3955A3";
-//    QString UI::_themeColor = "#F02E50";
+    this->_backColor = "white";
+    this->_winColor = "#F2F2F2";
+    //this->_winColor = "#EBEBEB";
+    this->_fontColor = "#333333";
+    this->_fontLightColor = "#CCCCCC";
+    this->_fontTipsColor = "#3955A3";
+    this->_themeColor = "#F02E50";
 }
 
 QJsonObject UI::getJsonUI()
